@@ -1,16 +1,139 @@
-# React + Vite
+# 🎬 React Movie Booking App (reactmovie)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Movie Booking Web Application** built using **React + Vite**.
+Users can browse movies, view details, and book tickets through a form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🎥 Movie list displayed in **4x4 grid layout**
+* 📄 Movie Details page with:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Description
+  * Cast
+  * Genres
+* 📝 Booking Form with validation:
 
-## Expanding the ESLint configuration
+  * Name (only characters)
+  * Email
+  * Mobile (10 digits)
+  * Date & Time
+* ✅ Confirmation page:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Random Booking ID
+  * User details
+* 🎨 Clean UI with **Violet Theme**
+* 🔁 Navigation using **React Router**
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* Vite
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* React Router DOM
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── Navbar.css
+ ├── data/
+ │    ├── movies.js
+ ├── pages/
+ │    ├── Home.jsx
+ │    ├── Home.css
+ │    ├── MovieDetails.jsx
+ │    ├── MovieDetails.css
+ │    ├── BookingForm.jsx
+ │    ├── BookingForm.css
+ │    ├── Confirmation.jsx
+ │    ├── Confirmation.css
+ │    ├── Footer.jsx
+ │    ├── Footer.css
+ ├── App.jsx
+ ├── App.css
+ ├── main.jsx
+ ├── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone <your-repo-link>
+```
+
+2. Navigate to project folder:
+
+```
+cd movie-booking-app
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Install router:
+
+```
+npm install react-router-dom
+```
+
+5. Run the project:
+
+```
+npm run dev
+```
+
+6. Open in browser:
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 📸 Screens
+
+* Home Page (Movie Grid)
+* Movie Details Page
+* Booking Form
+* Confirmation Page
+
+---
+
+## 🎯 Learning Outcomes
+
+* Component-based architecture
+* Routing with React Router
+* Form validation
+* State management using useState
+* UI design with CSS
+
+---
+
+
+
+## 📄 License
+
+This project is for educational purposes only.
+
+---
+
+## ⭐ Note
+
+This project was developed as part of a React + Vite assignment to demonstrate frontend development concepts.
